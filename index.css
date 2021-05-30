@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+#navbar {
+  background-color: #171717;
+  /* height: 50px; */
+
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#navbar p {
+  margin-bottom: 0;
+}
+.main {
+  margin-top: 30px;
+}
+.main__date {
+  text-align: center;
+  font-size: large;
+}
+.mainHead {
+  margin: 20px;
+}
+.descriptionhide {
+  display: none;
+}
+#sent {
+  margin-left: auto;
+  border-radius: 20px;
+}
+#sent:hover {
+  box-shadow: 0 4px 10px #a8a1a1;
+}
+#received {
+  margin-right: auto;
+
+  border-radius: 20px;
+}
+#received:hover {
+  box-shadow: 0 4px 10px #a8a1a1;
+}
+.boxpending {
+  background-color: rgba(241, 209, 28, 0.7) !important;
+  border-radius: 20px;
+}
+
+.boxpending:hover {
+  background-color: rgba(241, 209, 28, 0.9) !important;
+}
+.boxconfirmed {
+  background-color: rgba(48, 182, 55, 0.7);
+  border-radius: 20px;
+}
+.boxconfirmed:hover {
+  background-color: rgba(48, 182, 55, 0.9);
+}
+.boxexipre {
+  background-color: rgba(240, 52, 52, 0.7);
+  border-radius: 20px;
+}
+.boxexipre:hover {
+  background-color: rgba(240, 52, 52, 0.9);
+}
+.transactiondetails {
+  margin-bottom: 0;
+}
